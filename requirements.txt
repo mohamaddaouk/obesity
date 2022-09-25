@@ -1,0 +1,9 @@
+cufflinks==0.17.3
+hydralit_components==1.0.10
+numpy==1.22.4
+pandas==1.2.4
+plotly==5.10.0
+scipy==1.8.1
+streamlit==1.13.0
+streamlit_lottie==0.0.3
+streamlit_option_menu==0.3.2
