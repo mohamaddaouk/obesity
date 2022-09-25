@@ -155,7 +155,7 @@ if selected == "Global Obesity":
         fig.update_xaxes(showgrid=False)
         fig.update_yaxes(showgrid=False)
         st.write(fig)
-        st.markdown("**We notice that obesity and overweight prevalence rates continue to grow.**")
+        st.info("**We notice that obesity and overweight prevalence rates continue to grow.**")
         
 #----------------------------------------------------------------------------------------------------#
 # Page 3: Top 20 Countries
@@ -206,7 +206,7 @@ if selected == "Obesity by Subregion":
         st.write(fig)
 
         if sel_year2 == 2016:
-            st.markdown("**We notice that the female obesity prevalence rate is significantly higher than that of male with the exception of occupied Palestine.**")
+            st.info("**We noticed that the female obesity prevalence rate is significantly higher than that of male with the exception of occupied Palestine. In addition, the highest rates are noticed in Kuwait, Qatar, and Saudi Arabia.**")
 
     with col2:
         # Visualization no. 3
@@ -246,6 +246,7 @@ if selected == "Obesity by Gender":
     fig.update_xaxes(showgrid=False)
     fig.update_yaxes(showgrid=False)
     st.write(fig)
+    st.info("**Obesity prevalence rate among the total population (both sexes) has increased from 1975 till 2015. We noticed that the rate of obesity among females remained higher than that of males.**")
 
 #----------------------------------------------------------------------------------------------------#
 # Page 6: BMI Calculator
