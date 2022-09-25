@@ -102,7 +102,7 @@ if selected == "Home":
                  - Heart disease
                  - High blood pressure
                  - Stroke
-                 - Sigh cholesterol
+                 - High cholesterol
                  - Sleep apnea and other breathing problems
                  """)
         
